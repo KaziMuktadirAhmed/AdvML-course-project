@@ -1,0 +1,65 @@
+N= 4 gaussian E||grad L||^2 = 7.7775e+00 (12 s)
+N= 4 uniform  E||grad L||^2 = 7.3366e+00 (12 s)
+N= 4 zero     E||grad L||^2 = 1.3863e+00 (1 s)
+N= 6 gaussian E||grad L||^2 = 6.9768e+00 (17 s)
+N= 6 uniform  E||grad L||^2 = 2.1038e+00 (17 s)
+N= 6 zero     E||grad L||^2 = 7.2350e-01 (2 s)
+N= 8 gaussian E||grad L||^2 = 7.0987e+00 (23 s)
+N= 8 uniform  E||grad L||^2 = 5.4778e-01 (23 s)
+N= 8 zero     E||grad L||^2 = 1.0063e+00 (2 s)
+N=10 gaussian E||grad L||^2 = 6.5748e+00 (30 s)
+N=10 uniform  E||grad L||^2 = 1.7072e-01 (29 s)
+N=10 zero     E||grad L||^2 = 9.4735e-01 (3 s)
+S2 sweep done.
+N=12 gaussian E||grad L||^2 = 6.4878e+00 (40 s)
+N=12 uniform  E||grad L||^2 = 9.1206e-02 (40 s)
+N=12 zero     E||grad L||^2 = 5.0093e-01 (4 s)
+N=14 gaussian E||grad L||^2 = 8.5838e+00 (72 s)
+N=14 uniform  E||grad L||^2 = 8.5549e-02 (85 s)
+N=14 zero     E||grad L||^2 = 9.5073e-01 (7 s)
+S2 sweep done.
+adam seed 0 gaussian: test acc 0.824 -> 0.917, test MSE 0.760 -> 0.272 (61 s)
+adam seed 0 uniform : test acc 0.398 -> 0.907, test MSE 1.011 -> 0.306 (61 s)
+Stopping before the time limit; re-run to resume.
+adam seed 0 zero    : test acc 0.861 -> 0.907, test MSE 0.339 -> 0.272 (61 s)
+adam seed 1 gaussian: test acc 0.870 -> 0.963, test MSE 0.475 -> 0.232 (64 s)
+Stopping before the time limit; re-run to resume.
+adam seed 1 uniform : test acc 0.444 -> 0.926, test MSE 1.008 -> 0.248 (61 s)
+adam seed 1 zero    : test acc 0.861 -> 0.963, test MSE 0.339 -> 0.240 (64 s)
+Stopping before the time limit; re-run to resume.
+adam seed 2 gaussian: test acc 0.870 -> 0.935, test MSE 0.655 -> 0.256 (61 s)
+adam seed 2 uniform : test acc 0.417 -> 0.898, test MSE 1.010 -> 0.280 (61 s)
+Stopping before the time limit; re-run to resume.
+adam seed 2 zero    : test acc 0.861 -> 0.907, test MSE 0.339 -> 0.267 (61 s)
+adam seed 3 gaussian: test acc 0.741 -> 0.935, test MSE 0.730 -> 0.241 (61 s)
+Stopping before the time limit; re-run to resume.
+adam seed 3 uniform : test acc 0.509 -> 0.926, test MSE 0.995 -> 0.253 (66 s)
+adam seed 3 zero    : test acc 0.861 -> 0.907, test MSE 0.339 -> 0.262 (62 s)
+Stopping before the time limit; re-run to resume.
+adam seed 4 gaussian: test acc 0.907 -> 0.907, test MSE 0.490 -> 0.252 (61 s)
+adam seed 4 uniform : test acc 0.343 -> 0.898, test MSE 1.034 -> 0.278 (61 s)
+Stopping before the time limit; re-run to resume.
+adam seed 4 zero    : test acc 0.861 -> 0.907, test MSE 0.339 -> 0.258 (61 s)
+gd   seed 0 gaussian: test acc 0.824 -> 0.907, test MSE 0.760 -> 0.281 (62 s)
+Stopping before the time limit; re-run to resume.
+gd   seed 0 uniform : test acc 0.398 -> 0.676, test MSE 1.011 -> 0.951 (61 s)
+gd   seed 0 zero    : test acc 0.861 -> 0.898, test MSE 0.339 -> 0.293 (63 s)
+Stopping before the time limit; re-run to resume.
+gd   seed 1 gaussian: test acc 0.870 -> 0.917, test MSE 0.475 -> 0.265 (62 s)
+gd   seed 1 uniform : test acc 0.444 -> 0.722, test MSE 1.008 -> 0.964 (62 s)
+Stopping before the time limit; re-run to resume.
+gd   seed 1 zero    : test acc 0.861 -> 0.898, test MSE 0.339 -> 0.285 (62 s)
+gd   seed 2 gaussian: test acc 0.870 -> 0.898, test MSE 0.655 -> 0.297 (62 s)
+Stopping before the time limit; re-run to resume.
+gd   seed 2 uniform : test acc 0.417 -> 0.778, test MSE 1.010 -> 0.934 (61 s)
+gd   seed 2 zero    : test acc 0.861 -> 0.898, test MSE 0.339 -> 0.295 (64 s)
+Stopping before the time limit; re-run to resume.
+gd   seed 3 gaussian: test acc 0.741 -> 0.907, test MSE 0.730 -> 0.275 (63 s)
+gd   seed 3 uniform : test acc 0.509 -> 0.972, test MSE 0.995 -> 0.842 (64 s)
+Stopping before the time limit; re-run to resume.
+gd   seed 3 zero    : test acc 0.861 -> 0.898, test MSE 0.339 -> 0.285 (62 s)
+gd   seed 4 gaussian: test acc 0.907 -> 0.898, test MSE 0.490 -> 0.289 (65 s)
+Stopping before the time limit; re-run to resume.
+gd   seed 4 uniform : test acc 0.343 -> 0.870, test MSE 1.034 -> 0.911 (61 s)
+gd   seed 4 zero    : test acc 0.861 -> 0.898, test MSE 0.339 -> 0.289 (63 s)
+S2 training done.

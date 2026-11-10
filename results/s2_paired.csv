@@ -1,0 +1,5 @@
+opt,comparison,n,mean_diff,std_diff,gaussian_better_in
+adam,gaussian - uniform (final test MSE),5,-0.022174441661829802,0.008641251361783486,5
+adam,gaussian - zero (final test MSE),5,-0.009093139734947247,0.007786912221934864,4
+gd,gaussian - uniform (final test MSE),5,-0.6390897757954314,0.05023136704212183,5
+gd,gaussian - zero (final test MSE),5,-0.007840136176559875,0.009383391001655668,3

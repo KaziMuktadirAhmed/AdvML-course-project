@@ -1,0 +1,25 @@
+FakeManilaV2 N=5 blocks=8 seed 0 gaussian noise off: E   2.762 ->  -7.223 (noiseless  -7.223; E0 -7.712)  [75 s]
+checkpoint ('FakeManilaV2', 5, 8, 'gaussian', 'on', 0) at step 51; re-run to resume.
+FakeManilaV2 N=5 blocks=8 seed 0 gaussian noise on : E   1.785 ->  -3.112 (noiseless  -6.705; E0 -7.712)  [187 s]
+FakeManilaV2 N=5 blocks=8 seed 0 uniform  noise off: E   0.207 ->  -7.589 (noiseless  -7.589; E0 -7.712)  [75 s]
+checkpoint ('FakeManilaV2', 5, 8, 'uniform', 'on', 0) at step 1; re-run to resume.
+checkpoint ('FakeManilaV2', 5, 8, 'uniform', 'on', 0) at step 92; re-run to resume.
+FakeManilaV2 N=5 blocks=8 seed 0 uniform  noise on : E   0.025 ->  -1.056 (noiseless  -5.537; E0 -7.712)  [188 s]
+FakeManilaV2 N=5 blocks=8 seed 0 zero     noise off: E   4.000 ->  -6.854 (noiseless  -6.854; E0 -7.712)  [74 s]
+checkpoint ('FakeManilaV2', 5, 8, 'zero', 'on', 0) at step 42; re-run to resume.
+FakeManilaV2 N=5 blocks=8 seed 0 zero     noise on : E   2.512 ->  -3.253 (noiseless  -6.504; E0 -7.712)  [189 s]
+checkpoint ('FakeManilaV2', 5, 8, 'gaussian', 'off', 1) at step 77; re-run to resume.
+FakeManilaV2 N=5 blocks=8 seed 1 gaussian noise off: E   2.026 ->  -7.249 (noiseless  -7.249; E0 -7.712)  [75 s]
+checkpoint ('FakeManilaV2', 5, 8, 'gaussian', 'on', 1) at step 80; re-run to resume.
+FakeManilaV2 N=5 blocks=8 seed 1 gaussian noise on : E   1.333 ->  -3.147 (noiseless  -6.700; E0 -7.712)  [191 s]
+FakeManilaV2 N=5 blocks=8 seed 1 uniform  noise off: E  -0.324 ->  -7.598 (noiseless  -7.598; E0 -7.712)  [74 s]
+checkpoint ('FakeManilaV2', 5, 8, 'uniform', 'on', 1) at step 29; re-run to resume.
+FakeManilaV2 N=5 blocks=8 seed 1 uniform  noise on : E  -0.060 ->  -1.085 (noiseless  -5.979; E0 -7.712)  [190 s]
+checkpoint ('FakeManilaV2', 5, 8, 'gaussian', 'off', 2) at step 44; re-run to resume.
+FakeManilaV2 N=5 blocks=8 seed 2 gaussian noise off: E   1.681 ->  -7.213 (noiseless  -7.213; E0 -7.712)  [75 s]
+checkpoint ('FakeManilaV2', 5, 8, 'gaussian', 'on', 2) at step 66; re-run to resume.
+FakeManilaV2 N=5 blocks=8 seed 2 gaussian noise on : E   1.071 ->  -3.300 (noiseless  -6.696; E0 -7.712)  [193 s]
+FakeManilaV2 N=5 blocks=8 seed 2 uniform  noise off: E   1.247 ->  -7.424 (noiseless  -7.424; E0 -7.712)  [76 s]
+checkpoint ('FakeManilaV2', 5, 8, 'uniform', 'on', 2) at step 13; re-run to resume.
+FakeManilaV2 N=5 blocks=8 seed 2 uniform  noise on : E   0.205 ->  -0.855 (noiseless  -5.069; E0 -7.712)  [111 s]
+E4b grid done.

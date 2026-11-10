@@ -1,0 +1,13 @@
+[PASS] Lemma B.1, paper convention: E[<Z>^2] = 0.97561 +- 0.00011; exact 0.97561; lemma lower bound 1 - 4g2 = 0.9750
+[PASS] Lemma B.1, wrong convention is distinguishable: scale 1 gives 0.99379 (predicted 0.99379), far from 0.97561
+[PASS] Ground energy N = 10: E0 = -17.03214 (plan: -17.032)
+[PASS] Ground energy N = 15: E0 = -25.66768 (plan: -25.668)
+[PASS] Parameter count: 300 parameters, L = 18
+[PASS] Zero init energy: <H> = 14.0000000000 (expect 14)
+[PASS] Zero init gradient: max |grad| = 0.00e+00 (time per gradient at 15 qubits: 0.144 s)
+[PASS] Adjoint vs finite differences: max diff 6.53e-10 over 16 params
+[PASS] Adjoint vs paper Eq. (2) shift rule: max diff 1.78e-15
+[PASS] lightning.qubit vs default.qubit energy: 0.022360702065 vs 0.022360702065
+[PASS] Regression vs smoke test (10q Gaussian): E||grad||^2 = 385.63 (smoke test, Nov 5: 385.6)
+
+Overall: ALL PASS  (PennyLane 0.42.3, Python 3.10.12, 2026-11-10 00:25)

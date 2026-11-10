@@ -1,0 +1,59 @@
+FakeNairobiV2 N=7 blocks=3 seed 0 gaussian noise off: E   4.563 ->  -9.441 (noiseless  -9.441; E0 -11.345)  [4 s]
+checkpoint ('FakeNairobiV2', 7, 3, 'gaussian', 'on', 0) at step 61; re-run to resume.
+FakeNairobiV2 N=7 blocks=2 seed 0 gaussian noise off: E   3.327 ->  -8.531 (noiseless  -8.531; E0 -11.345)  [2 s]
+FakeNairobiV2 N=7 blocks=2 seed 0 gaussian noise on : E   2.962 ->  -6.518 (noiseless  -8.428; E0 -11.345)  [123 s]
+FakeNairobiV2 N=7 blocks=2 seed 0 uniform  noise off: E   0.058 ->  -8.656 (noiseless  -8.656; E0 -11.345)  [2 s]
+checkpoint ('FakeNairobiV2', 7, 2, 'uniform', 'on', 0) at step 33; re-run to resume.
+FakeNairobiV2 N=7 blocks=3 seed 0 gaussian noise on : E   3.774 ->  -6.548 (noiseless  -9.369; E0 -11.345)  [272 s]
+FakeNairobiV2 N=7 blocks=3 seed 0 uniform  noise off: E   0.931 ->  -8.827 (noiseless  -8.827; E0 -11.345)  [4 s]
+checkpoint ('FakeNairobiV2', 7, 3, 'uniform', 'on', 0) at step 21; re-run to resume.
+FakeNairobiV2 N=7 blocks=2 seed 0 uniform  noise on : E   0.048 ->  -6.408 (noiseless  -8.398; E0 -11.345)  [193 s]
+FakeNairobiV2 N=7 blocks=2 seed 0 zero     noise off: E   6.000 ->   6.000 (noiseless   6.000; E0 -11.345)  [4 s]
+checkpoint ('FakeNairobiV2', 7, 2, 'zero', 'on', 0) at step 5; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 3, 'uniform', 'on', 0) at step 54; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 2, 'zero', 'on', 0) at step 45; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 3, 'uniform', 'on', 0) at step 87; re-run to resume.
+FakeNairobiV2 N=7 blocks=2 seed 0 zero     noise on : E   5.450 ->  -6.566 (noiseless  -8.481; E0 -11.345)  [237 s]
+FakeNairobiV2 N=7 blocks=2 seed 1 gaussian noise off: E   1.784 ->  -8.649 (noiseless  -8.649; E0 -11.345)  [4 s]
+checkpoint ('FakeNairobiV2', 7, 2, 'gaussian', 'on', 1) at step 7; re-run to resume.
+FakeNairobiV2 N=7 blocks=3 seed 0 uniform  noise on : E   0.551 ->  -5.903 (noiseless  -8.810; E0 -11.345)  [467 s]
+FakeNairobiV2 N=7 blocks=3 seed 0 zero     noise off: E   6.000 ->   6.000 (noiseless   6.000; E0 -11.345)  [8 s]
+checkpoint ('FakeNairobiV2', 7, 3, 'zero', 'on', 0) at step 17; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 2, 'gaussian', 'on', 1) at step 80; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 3, 'zero', 'on', 0) at step 50; re-run to resume.
+FakeNairobiV2 N=7 blocks=2 seed 1 gaussian noise on : E   1.959 ->  -6.563 (noiseless  -8.550; E0 -11.345)  [233 s]
+FakeNairobiV2 N=7 blocks=2 seed 1 uniform  noise off: E   0.140 ->  -7.889 (noiseless  -7.889; E0 -11.345)  [4 s]
+checkpoint ('FakeNairobiV2', 7, 2, 'uniform', 'on', 1) at step 50; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 3, 'zero', 'on', 0) at step 83; re-run to resume.
+FakeNairobiV2 N=7 blocks=2 seed 1 uniform  noise on : E   0.264 ->  -6.048 (noiseless  -7.843; E0 -11.345)  [233 s]
+FakeNairobiV2 N=7 blocks=2 seed 2 gaussian noise off: E   1.471 ->  -8.611 (noiseless  -8.611; E0 -11.345)  [4 s]
+checkpoint ('FakeNairobiV2', 7, 2, 'gaussian', 'on', 2) at step 20; re-run to resume.
+FakeNairobiV2 N=7 blocks=3 seed 0 zero     noise on : E   5.195 ->  -6.366 (noiseless  -8.728; E0 -11.345)  [517 s]
+FakeNairobiV2 N=7 blocks=3 seed 1 gaussian noise off: E   4.424 ->  -9.491 (noiseless  -9.491; E0 -11.345)  [8 s]
+checkpoint ('FakeNairobiV2', 7, 3, 'gaussian', 'on', 1) at step 13; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 2, 'gaussian', 'on', 2) at step 93; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 3, 'gaussian', 'on', 1) at step 45; re-run to resume.
+FakeNairobiV2 N=7 blocks=2 seed 2 gaussian noise on : E   1.712 ->  -6.584 (noiseless  -8.364; E0 -11.345)  [234 s]
+FakeNairobiV2 N=7 blocks=2 seed 2 uniform  noise off: E  -0.294 ->  -7.686 (noiseless  -7.686; E0 -11.345)  [4 s]
+checkpoint ('FakeNairobiV2', 7, 2, 'uniform', 'on', 2) at step 63; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 3, 'gaussian', 'on', 1) at step 78; re-run to resume.
+FakeNairobiV2 N=7 blocks=2 seed 2 uniform  noise on : E  -0.170 ->  -5.351 (noiseless  -6.858; E0 -11.345)  [235 s]
+E4b grid done.
+FakeNairobiV2 N=7 blocks=3 seed 2 gaussian noise off: E   4.590 ->  -9.014 (noiseless  -9.014; E0 -11.345)  [8 s]
+checkpoint ('FakeNairobiV2', 7, 3, 'gaussian', 'on', 2) at step 11; re-run to resume.
+FakeNairobiV2 N=7 blocks=3 seed 1 gaussian noise on : E   3.885 ->  -6.505 (noiseless  -9.248; E0 -11.345)  [530 s]
+FakeNairobiV2 N=7 blocks=3 seed 1 uniform  noise off: E  -1.148 ->  -8.785 (noiseless  -8.785; E0 -11.345)  [8 s]
+checkpoint ('FakeNairobiV2', 7, 3, 'uniform', 'on', 1) at step 8; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 3, 'gaussian', 'on', 2) at step 42; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 3, 'uniform', 'on', 1) at step 41; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 3, 'gaussian', 'on', 2) at step 75; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 3, 'uniform', 'on', 1) at step 73; re-run to resume.
+FakeNairobiV2 N=7 blocks=3 seed 2 gaussian noise on : E   3.898 ->  -6.454 (noiseless  -8.667; E0 -11.345)  [522 s]
+FakeNairobiV2 N=7 blocks=3 seed 2 uniform  noise off: E   1.077 ->  -9.183 (noiseless  -9.183; E0 -11.345)  [8 s]
+checkpoint ('FakeNairobiV2', 7, 3, 'uniform', 'on', 2) at step 5; re-run to resume.
+FakeNairobiV2 N=7 blocks=3 seed 1 uniform  noise on : E  -0.839 ->  -5.894 (noiseless  -8.726; E0 -11.345)  [528 s]
+E4b grid done.
+checkpoint ('FakeNairobiV2', 7, 3, 'uniform', 'on', 2) at step 38; re-run to resume.
+checkpoint ('FakeNairobiV2', 7, 3, 'uniform', 'on', 2) at step 70; re-run to resume.
+FakeNairobiV2 N=7 blocks=3 seed 2 uniform  noise on : E   0.668 ->  -5.290 (noiseless  -7.961; E0 -11.345)  [532 s]
+E4b grid done.

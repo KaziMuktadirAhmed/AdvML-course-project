@@ -1,0 +1,59 @@
+[PASS] data file e1_gradnorm_raw.csv: 1.09 MB
+[PASS] figure e1_gradnorm.png exists and is newer than its data: 269 kB
+[PASS] figure e1_gradnorm.pdf exists and is newer than its data: 49 kB
+[PASS] data file e2_runs.csv: 0.65 MB
+[PASS] figure e2_training.png exists and is newer than its data: 353 kB
+[PASS] figure e2_training.pdf exists and is newer than its data: 75 kB
+[PASS] data file s2_gradsweep_raw.csv: 0.11 MB
+[PASS] figure s2_gradsweep.png exists and is newer than its data: 60 kB
+[PASS] figure s2_gradsweep.pdf exists and is newer than its data: 22 kB
+[PASS] data file s2_train.csv: 0.24 MB
+[PASS] figure s2_training.png exists and is newer than its data: 307 kB
+[PASS] figure s2_training.pdf exists and is newer than its data: 31 kB
+[PASS] data file e4b_runs.csv: 1.04 MB
+[PASS] figure e4b_noise_FakeManilaV2_5q.png exists and is newer than its data: 303 kB
+[PASS] figure e4b_noise_FakeManilaV2_5q.pdf exists and is newer than its data: 44 kB
+[PASS] figure e4b_noise_FakeNairobiV2_7q.png exists and is newer than its data: 259 kB
+[PASS] figure e4b_noise_FakeNairobiV2_7q.pdf exists and is newer than its data: 41 kB
+[PASS] derived file e0_validation.txt
+[PASS] derived file e1_summary.csv
+[PASS] derived file e1_decay_fits.csv
+[PASS] derived file e2_summary.csv
+[PASS] derived file e2_per_run.csv
+[PASS] derived file s2_gradsweep_summary.csv
+[PASS] derived file s2_train_summary.csv
+[PASS] derived file s2_paired.csv
+[PASS] derived file e4b_summary.csv
+[PASS] derived file e4b_per_run.csv
+[PASS] derived file noise_depth_sweep_FakeManilaV2_5q_scale2.csv
+[PASS] E1 rows / cells: 9648 rows (expect 9648), 144 cells (expect 144)
+[PASS] E1 no duplicate draws / NaNs
+[PASS] E1 zero-init gradient exactly 0
+[PASS] E2 60 complete runs, steps 0..100 once each: 60 runs, 6060 rows
+[PASS] E2 no NaN energies
+[PASS] S2 sweep rows: 1260 rows (expect 1260)
+[PASS] S2 30 complete runs (Adam + GD), steps 0..100 once each: 30 runs
+[PASS] S2 eval every 10 steps (11 evals per run)
+[PASS] E4b all runs complete, steps 0..100 once each (across all e4b_runs*.csv files): 116 runs in 5 files (expect 116)
+[PASS] E4b grid: G/U x 3 seeds + zero per (N, blocks, noise): 5q blocks 1 has 3 identical zero-init seeds from before the zero-seed-0 rule; harmless
+[PASS] E4b duplicated zero-init seeds at 5q/1 block are identical
+[PASS] E4b no unfinished checkpoints: 0 pending .json
+[PASS] E4b noise-on runs have noiseless evaluations every 10 steps
+[PASS] E1 headline: Gaussian/uniform at N=14, 20 blocks = 586x (H), 610x (Z1Z2): 585.7x, 610.0x
+[PASS] E2 headline: GD exact f(100) G -22.85 / U -21.77; iters to -20: 16.8 / 71.4: -22.851 / -21.772; 16.8 / 71.4
+[PASS] E2 headline: Adam exact f(100) G -22.97 / U -23.50: -22.968 / -23.498
+[PASS] S2 sweep headline: Gaussian/uniform = 71x (N=12), 100x (N=14): 71.1x, 100.3x
+[PASS] S2 headline: final test MSE Adam G 0.251 / U 0.273; GD G 0.281 / U 0.921: adam gaussian 0.251, adam uniform 0.273, adam zero 0.260, gd gaussian 0.281, gd uniform 0.921, gd zero 0.289
+[PASS] E4b headline: 5q 8 blocks noisy loss G -3.19 / U -1.00; noiseless G -7.23 / U -7.54: -3.187 / -0.999; -7.228 / -7.537
+[PASS] E4b headline: 7q noisy loss G -6.56 / U -5.94 (2 blocks), -6.50 / -5.70 (3 blocks)
+[PASS] E4b headline: noisy G-U gap grows with depth (0.0 -> 2.19), monotone after 1 block: 1:0.01, 2:0.37, 3:0.52, 4:0.68, 6:1.59, 8:2.19
+[PASS] all scripts in code/ compile: 17 files
+
+ALL CHECKS PASS
+
+Reproducibility (re-run from scratch, compared with stored data; Nov 9 evening):
+[PASS] E0 validation re-run: ALL PASS
+[PASS] E1 cell N=8 / 10 blocks / H / gaussian (100 draws): max |diff| 5.7e-14
+[PASS] E2 run seed 0 / gaussian / GD / exact (101 steps): max |energy diff| 3.6e-15
+[PASS] S2 run GD / uniform / seed 3: max |test MSE diff| 1.1e-16, max |batch grad diff| 8.3e-17
+[PASS] E4b run 5q / 2 blocks / gaussian / noise on / seed 0 (101 steps): max |energy diff| 4.4e-16

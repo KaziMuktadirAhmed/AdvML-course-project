@@ -1,0 +1,13 @@
+# ENGI 9882 project: reproducing Zhang et al., NeurIPS 2022 (Gaussian init for VQCs)
+# Tested with PennyLane 0.45.1. After installing, record exact versions with:
+#   pip freeze > requirements-lock.txt
+pennylane
+pennylane-lightning
+numpy
+scipy
+matplotlib
+pandas
+# Realistic-noise extension (E4b): IBM fake backends + Aer noise models
+qiskit
+qiskit-aer
+qiskit-ibm-runtime
